@@ -1,5 +1,9 @@
 $(document).ready(function () {
     const screens = $(".screen");
+
+    console.log(`@@  load `);
+
+
     let currentScreen = 0;
 
     // Функция показа нужного экрана
